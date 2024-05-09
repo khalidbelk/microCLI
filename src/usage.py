@@ -6,7 +6,7 @@
 ##
 
 def usage():
-    print("./microCLI [-ls | -up | -save | -rename | -rm | -v | --version | -h | --help] <FILENAME> <NEWNAME>")
+    print("./microCLI [-ls | -up | -save | -rm | -rename | -show | -v | --version | -h | --help] <FILENAME> <NEWNAME>")
     print("")
     print("DESCRIPTION:")
     print("")
