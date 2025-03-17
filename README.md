@@ -53,3 +53,7 @@ DESCRIPTION:
 I was looking for a way to test stuff directly on my micro:bit. After doing some research, I found out that there weren't many options to run Python code on it, aside from the MakeCode / Python Editor online tools. I eventually found a VS Code extension that did the job, but having to use the command palette to navigate every couple of minutes was a hassle (search for the right text to click on...etc), then I found out it was using MicroFS under the hood, so I thought that would be a good starting point to create an easy way to test my code via terminal. While MicroFS is solid, the original repository was not so user-friendly for someone who would just like to quickly run his code into the device, since it's more focused on its pip package 'ufs', which is understandable, but I wanted something more straightforward and simpler.
 
 So I decided to create something that would suit my needs and make it simpler for others who might be in the same situation.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](/LICENSE) file for details
